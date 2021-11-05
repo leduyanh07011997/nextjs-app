@@ -6,8 +6,9 @@
       {
         "root": ["./"],
         "alias": {
-          "@": "./"
-        }
+          "@styles": "./styles"
+        },
+        "extensions": [".ts", ".tsx", ".jsx", ".js", ".json", ".svg", ".jpg"]
       }
     ]
   ]
