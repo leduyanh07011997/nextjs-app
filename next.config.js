@@ -3,9 +3,9 @@
 
 module.exports = {
   reactStrictMode: true,
-  // env: {
-  //   API: process.env.NEXT_PUBLIC_API,
-  // },
+  env: {
+    myAge: 24,
+  },
   // webpack: (config) => {
   //   config.resolve.modules.push(path.resolve("./"));
 
