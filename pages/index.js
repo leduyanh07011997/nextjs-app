@@ -4,7 +4,7 @@ const user = {
   user: process.env.NEXT_PUBLIC_DB_USER,
   pass: process.env.DB_PASS,
 };
-console.log(user);
+console.log(process.env.myAge);
 
 export default function Home() {
   return (
